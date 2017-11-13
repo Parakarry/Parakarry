@@ -1,70 +1,70 @@
 # Parakarry
 
-git init
+$ git init
 
-git clone /path/to/repository
+$ git clone /path/to/repository
 
-git clone username@host:/path/to/repository 
+$ git clone username@host:/path/to/repository 
 
-Working Directory 
+$ Working Directory 
 
-Index
+$ Index
 
-HEAD
+$ HEAD
 
-git add <filename>
+$ git add <filename>
 
-git add *
+$ git add *
 
-git commit -m "Commit message"
+$ git commit -m "Commit message"
 
-git push origin master
+$ git push origin master
 
-git remote add origin <server>
+$ git remote add origin <server>
 
-git checkout -b feature_x
+$ git checkout -b feature_x
 
-git checkout master
+$ git checkout master
 
-git branch -d feature_x
+$ git branch -d feature_x
 
-git push origin <branch>
+$ git push origin <branch>
 
-git pull
+$ git pull
 
-git merge <branch>
+$ git merge <branch>
 
-git add <filename>
+$ git add <filename>
 
-git diff <source_branch> <target_branch>
+$ git diff <source_branch> <target_branch>
 
-git tag 1.0.0 1b2e1d63ff
+$ git tag 1.0.0 1b2e1d63ff
 
-git log
+$ git log
 
-git log --author=bob
+$ git log --author=bob
 
-git log --pretty=oneline
+$ git log --pretty=oneline
 
-git log --graph --oneline --decorate --all
+$ git log --graph --oneline --decorate --all
 
-git log --name-status
+$ git log --name-status
 
-git log --help
+$ git log --help
 
-git checkout -- <filename>
+$ git checkout -- <filename>
 
-git fetch origin
+$ git fetch origin
 
-git reset --hard origin/master 
+$ git reset --hard origin/master 
 
-gitk
+$ gitk
 
-git config color.ui true
+$ git config color.ui true
 
-git config format.pretty oneline
+$ git config format.pretty oneline
 
-git add -i
+$ git add -i
 
 
 
